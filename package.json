@@ -1,0 +1,16 @@
+{
+  "name": "airbnb_copy",
+  "version": "1.0.0",
+  "description": "A copy of Airbnb website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "airbnb",
+    "copy",
+    "clone"
+  ],
+  "author": "Stefano Silvestrini",
+  "license": "ISC"
+}
