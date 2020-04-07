@@ -13,6 +13,7 @@ app.use(cors({ credentials: true }));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.use('/reviews', require('./controllers/reviews'));
 app.use('/houses', require('./controllers/houses'));
 app.use('/amenities', require('./controllers/amenities'));
 
