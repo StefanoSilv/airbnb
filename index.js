@@ -13,6 +13,8 @@ app.use(cors({ credentials: true }));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.use('/amenities', require('./controllers/amenities'));
+
 app.listen(process.env.PORT, () => {
 	console.log(`Ready on port ${process.env.PORT}`);
 });
