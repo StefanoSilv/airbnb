@@ -1,5 +1,5 @@
 require('dotenv').config();
-const database = require('../database');
+const database = require('../db');
 const Amenities = require('../models/amenities');
 const Houses = require('../models/houses');
 const Reviews = require('../models/reviews');

@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
 require('../models/users');
+require('../models/amenities');
+require('../models/types');
+
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
 module.exports = mongoose.model('houses', {
