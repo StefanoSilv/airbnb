@@ -11,8 +11,7 @@ pipeline {
     stage('error') {
       steps {
         sh '''npm install
-
-//Need to install nodejs plugin first'''
+'''
       }
     }
 
