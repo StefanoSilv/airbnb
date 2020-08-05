@@ -8,9 +8,11 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
-        sh 'npm install'
+        sh '''npm install
+
+//Need to install nodejs plugin first'''
       }
     }
 
